@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .table.table-bordered tbody tr:hover td {
+    background-color: rgba(62, 77, 80, 0.8);
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+    
+  </style>
+</head>
+<body class="bg-light m-0">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="#">My Profile</a>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active bg-secondary fw-bold px-3" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold px-3" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold px-3" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="bg-white mt-2 rounded-bottom" style="background-image:url('image/bg4.jpg'); background-position:center; padding:50px;"></div>
+
+ 
+  <div class="container bg-white p-4">
+
+    
+
+<div class="row align-items-center g-3" style="line-height:0.6; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+  <div class="col-md-3 text-center">
+    <img src="image/Eva.png" alt="Eva" 
+         class="rounded-circle border border-4 border-white shadow img-fluid"
+         style="width:170px; height:170px; object-fit:cover; margin-top:-50px; background:#fff;">
+  </div>
+
+
+  <div class="col-md-9">
+    <h3 class="text-dark">ANAGWONYE EVA ADAEZEORA</h3>
+    <p class="text-muted small">Edo State ICTA Intern</p>
+  </div>
+</div>
+
+ <!-- About Me -->
+    <section class="mt-4" style="font-family: Helvetica; line-height:1.3; font-size:16px; text-align:justify;">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1 class="text-dark">About me</h1>
+        <button class="btn btn-dark rounded-3 px-3" onclick="clickMe()">...</button>
+      </div>
+      <p class="mt-3">
+        Hi, my name is Anagwonye Eva Adaezeora, I'm a 400lvl student at the University of Benin studying Computer Engineering. I am an aspiring backend web developer. I am also a track athlete at my University.
+        I love creativity and meaningful conversations. I recently served as the Vice President of the Association of Computer Engineering, University of Benin. I enjoy playing music, listening to music and finding new good music. 
+        I also bake lovely cakes and desserts which I sell, a business I began last year called "Eevey's". You should order something, and try it. I love learning to code and learning new things. 
+        I have a terrible sleep schedule (since my 200level days), I like holidays and very much treasure my quiet/alone time, where it's peaceful and I do not have to do alot of talking...or any talking at all.
+      </p>
+      <hr>
+
+     
+  <!-- Jobs -->
+<div class="row g-4 mt-3">
+
+  <div class="col-md-4">
+    <div class="p-3 h-100 d-flex flex-column"> 
+      <div class="mb-3 d-flex flex-column" style="min-height: 120px;"> <!-- for equal height header when the screen becomes small -->
+        <div class="fw-bold text-secondary" style="font-size:50px; line-height:1;">01</div>
+        <h3 class="text-secondary">Backend Web Developer</h3>
+      </div>
+
+      <div class="d-flex flex-column align-items-center gap-2 mt-auto">
+        <div class="ratio ratio-4x3">
+          <img src="image/backend_image1.jpg" class="w-100 rounded-4 shadow border-bottom border-4 border-dark"style="object-fit: cover;">
+        </div>
+        <div class="ratio ratio-4x3">
+          <img src="image/backend_image2.png"class="w-100 rounded-4 shadow border-bottom border-4 border-dark"style="object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="p-3 h-100 d-flex flex-column">
+      <div class="mb-3 d-flex flex-column" style="min-height: 120px;">
+        <div class="fw-bold text-secondary" style="font-size:50px; line-height:1;">02</div>
+        <h3 class="text-secondary">Baker and Cake Artist</h3>
+      </div>
+
+      <div class="d-flex flex-column align-items-center gap-2 mt-auto">
+        <div class="ratio ratio-4x3">
+          <img src="image/baking_image1.jpg"class="w-100 rounded-4 shadow border-bottom border-4 border-dark"style="object-fit: cover;">
+        </div>
+        <div class="ratio ratio-4x3">
+          <img src="image/baking_image2.jpg"class="w-100 rounded-4 shadow border-bottom border-4 border-dark"style="object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="p-3 h-100 d-flex flex-column">
+      <div class="mb-3 d-flex flex-column" style="min-height: 120px;">
+        <div class="fw-bold text-secondary" style="font-size:50px; line-height:1;">03</div>
+        <h3 class="text-secondary">Copywriter</h3>
+      </div>
+
+      <div class="d-flex flex-column align-items-center gap-2 mt-auto">
+        <div class="ratio ratio-4x3">
+          <img src="image/copywriting_image1.jpg"class="w-100 rounded-4 shadow border-bottom border-4 border-dark"style="object-fit: cover;">
+        </div>
+        <div class="ratio ratio-4x3">
+          <img src="image/copywriting_image2.jpg"class="w-100 rounded-4 shadow border-bottom border-4 border-dark"style="object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="table-responsive mt-4">
+        <table class="table table-bordered text-center align-middle">
+          <thead class="table-dark">
+            <tr >
+              <th>Skills</th>
+              <th>Competency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr >
+              <td>Web development</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td>Baking</td>
+              <td>Expert</td>
+            </tr>
+            <tr>
+              <td>Music</td>
+              <td>Expert</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-4 mt-4">
+    <div class="container d-flex justify-content-around align-items-center">
+      <div>
+        <a href="https://www.instagram.com/_adayzay?igsh=MWEwNmxmdXN6bjlsNw==" class="text-white text-decoration-none px-3">Instagram</a>
+        <a href="https://x.com/eevahwritescode?t=W6CmsVXm2bxnVVbFIN0m8g&s=03" class="text-white text-decoration-none px-3">X</a>
+      </div>
+      <div>
+        <a href="mailto:anagwonyeadeze42@gmail.com" class="text-white text-decoration-none">Email: anagwonyeadeze42@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
