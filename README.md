@@ -17,5 +17,5 @@ I used **Bootstrap 5** for this project. I chose Bootstrap because it provides a
 - Making the layout responsive while keeping images and text (such as backend end developer and copywriter) and grid images to be properly positioned and aligned on smaller screens due to different text lengths(causing the texts to wrap to the next line differently).
 - Ensuring proper placement of scripts and styles to make interactive elements like buttons work.
 
-View my live portfolio:** [Click here](https://d-eva-code.github.io/bootstrap_portfolio/)
+View my live portfolio: [Click here](https://d-eva-code.github.io/bootstrap_portfolio/)
 
